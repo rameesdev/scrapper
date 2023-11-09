@@ -1,5 +1,4 @@
 const ytdl = require('ytdl-core');
-const fs = require("fs")
 const app = require("express")();
 const requestOptions = {
   filter: 'audioonly',
